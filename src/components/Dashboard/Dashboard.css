@@ -1,0 +1,48 @@
+#dashboard-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dashboard-component-container {
+    height: 87vh;
+    overflow: hidden;
+    background: #ECEAFC;
+    position: relative;
+}
+
+.dashboard-component-wrapper {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin:0 auto;
+    height: 100%; */
+    height: 100%;
+    width:100%;
+    margin: 0 auto;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+@media(min-width: 1150px) {
+ .dashboard-component-container {
+     height: 87vh;
+ }
+ .dashboard-component-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin:0 auto;
+    height: 100%; 
+}
+
+}
+@media(min-width: 1650px) {
+ .dashboard-component-container {
+     height: 87vh;
+ }
+}

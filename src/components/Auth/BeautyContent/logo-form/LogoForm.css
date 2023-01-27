@@ -1,0 +1,46 @@
+/* Logo Style
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .logo-text {
+  font-family: 'Karla', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #5D54C2;
+}
+
+#top-bar-main .logo {
+  padding: 0 0 !important;
+}
+
+#top-bar-main .logo {
+  flex: 1;
+}
+
+#top-bar-main .logo-text {
+  letter-spacing: 0.8px;
+} 
+
+#top-bar-main .logo-img {
+  
+} 
+
+@media (min-width: 1650px) {
+  .logo .logo-text {
+    font-size: 2.4rem;
+  } 
+  #top-bar-main .logo-text {
+    font-size: 1.6rem !important;
+  } 
+ .logo-img {
+    width: 4.7rem;
+ }
+ #top-bar-main .logo-img {
+   width: 3.5rem;
+ } 
+}
+
+ */
